@@ -15,6 +15,11 @@ A simulation of a 20-sided die roll used in tabletop RPG games like Dungeons & D
 
 - **Command:** `cargo run --bin dnd_dice`
 
+### 3. Random PIN Generator 🔐
+A security tool that generates a random 6-digit numeric PIN code for testing or personal use.
+
+- **Command:** `cargo run --bin pin_gen`
+
 ## How to Run
 
 1. Clone the repository.
