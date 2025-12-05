@@ -4,13 +4,13 @@ A collection of useful command-line interface (CLI) tools and utilities develope
 
 ## Tools List
 
-### 1. Coin Flipper
+### 1. Coin Flipper 🪙
 
 A simple RNG-based tool to simulate a coin toss (Heads/Tails).
 
 - **Command:** `cargo run --bin coin_flip`
 
-### 2. RPG Dice Roller (d20)
+### 2. RPG Dice Roller (d20) 🎲
 A simulation of a 20-sided die roll used in tabletop RPG games like Dungeons & Dragons. Includes logic for critical hits (20) and critical misses (1).
 
 - **Command:** `cargo run --bin dnd_dice`
@@ -19,6 +19,12 @@ A simulation of a 20-sided die roll used in tabletop RPG games like Dungeons & D
 A security tool that generates a random 6-digit numeric PIN code for testing or personal use.
 
 - **Command:** `cargo run --bin pin_gen`
+
+### 4. Russian Roulette (Realistic Mode) 🔫
+A high-stakes simulation where the bullet remains in a fixed chamber. The cylinder rotates sequentially after every empty pull, mathematically increasing the risk each turn.
+
+- **Mechanic:** Hidden State & Circular Logic (Cylinder resets after 6).
+- **Command:** `cargo run --bin russian_roulette`
 
 ## How to Run
 

@@ -4,4 +4,5 @@ fn main() {
     println!("1. Coin Flipper (Run: cargo run --bin coin_flip)");
     println!("2. RPG Dice roller (Run: cargo run --bin dnd_dice)");
     println!("3. PIN Generator (Run: cargo run --bin pin_gen)");
+    println!("4. Russian Roulette (Run: cargo run --bin russian_roulette)");
 }
