@@ -5,4 +5,5 @@ fn main() {
     println!("2. RPG Dice roller (Run: cargo run --bin dnd_dice)");
     println!("3. PIN Generator (Run: cargo run --bin pin_gen)");
     println!("4. Russian Roulette (Run: cargo run --bin russian_roulette)");
+    println!("5. BMI Calculator (Run: cargo run --bin bmi_calc)");
 }

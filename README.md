@@ -26,6 +26,11 @@ A high-stakes simulation where the bullet remains in a fixed chamber. The cylind
 - **Mechanic:** Hidden State & Circular Logic (Cylinder resets after 6).
 - **Command:** `cargo run --bin russian_roulette`
 
+### 5. BMI Calculator 🏥
+A health utility tool that calculates Body Mass Index based on weight and height inputs, providing health status categories.
+
+- **Command:** `cargo run --bin bmi_calc`
+
 ## How to Run
 
 1. Clone the repository.
