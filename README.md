@@ -1,47 +1,77 @@
 # Rust CLI Tools
 
-A collection of useful command-line interface (CLI) tools and utilities developed while learning Rust.
+This repository contains small command-line tools I built while learning Rust.  
+Each tool focuses on a specific concept such as input handling, control flow, randomness, or basic game logic.
 
-## Tools List
-
-### 1. Coin Flipper 🪙
-
-A simple RNG-based tool to simulate a coin toss (Heads/Tails).
-
-- **Command:** `cargo run --bin coin_flip`
-
-### 2. RPG Dice Roller (d20) 🎲
-A simulation of a 20-sided die roll used in tabletop RPG games like Dungeons & Dragons. Includes logic for critical hits (20) and critical misses (1).
-
-- **Command:** `cargo run --bin dnd_dice`
-
-### 3. Random PIN Generator 🔐
-A security tool that generates a random 6-digit numeric PIN code for testing or personal use.
-
-- **Command:** `cargo run --bin pin_gen`
-
-### 4. Russian Roulette (Realistic Mode) 🔫
-A high-stakes simulation where the bullet remains in a fixed chamber. The cylinder rotates sequentially after every empty pull, mathematically increasing the risk each turn.
-
-- **Mechanic:** Hidden State & Circular Logic (Cylinder resets after 6).
-- **Command:** `cargo run --bin russian_roulette`
-
-### 5. BMI Calculator 🏥
-A health utility tool that calculates Body Mass Index based on weight and height inputs, providing health status categories.
-
-- **Command:** `cargo run --bin bmi_calc`
-
-### 6. Tic Tac Toe ❌
-A classic command-line version of the popular strategy game where two players compete on a 3x3 grid to align three marks.
-
-- **Command:** `cargo run --bin tic_tac_toe`
-
-## How to Run
-
-1. Clone the repository.
-2. Navigate to the project folder.
-3. Run the specific tool using `cargo run --bin tool_name`.
+The goal of this repo is not to build production-ready software, but to practice writing Rust by actually building things instead of following tutorials line by line.
 
 ---
 
-Created by **Emre Esim**
+## Included Tools
+
+### Coin Flipper 🪙
+A simple random number based tool that simulates a coin toss (Heads / Tails).
+
+- Binary: `coin_flip`  
+- Run with: `cargo run --bin coin_flip`
+
+---
+
+### RPG Dice Roller (d20) 🎲
+A 20-sided dice simulator inspired by tabletop RPG games like Dungeons & Dragons.  
+Includes logic for critical hits (20) and critical misses (1).
+
+- Binary: `dnd_dice`  
+- Run with: `cargo run --bin dnd_dice`
+
+---
+
+### Random PIN Generator 🔐
+Generates a random 6-digit numeric PIN.  
+Built to practice randomness, formatting, and basic output control.
+
+- Binary: `pin_gen`  
+- Run with: `cargo run --bin pin_gen`
+
+---
+
+### Russian Roulette (Sequential Logic) 🔫
+A simulation where the bullet stays in a fixed chamber and the cylinder advances after each trigger pull.  
+The risk increases mathematically with every turn until the cylinder resets.
+
+- Focus: hidden state, circular logic  
+- Binary: `russian_roulette`  
+- Run with: `cargo run --bin russian_roulette`
+
+---
+
+### BMI Calculator 🏥
+Calculates Body Mass Index based on user input and outputs a health category.
+
+- Focus: input parsing, float math  
+- Binary: `bmi_calc`  
+- Run with: `cargo run --bin bmi_calc`
+
+---
+
+### Tic Tac Toe ❌
+A two-player command-line Tic Tac Toe game played in the terminal.  
+Built to practice vector usage, indexing, and basic game state management.
+
+- Binary: `tic_tac_toe`  
+- Run with: `cargo run --bin tic_tac_toe`
+
+---
+
+## How to Run
+
+Clone the repository, then run any tool using Cargo:
+
+```bash
+cargo run --bin tool_name
+```
+Each tool is implemented as a separate binary.
+
+---
+
+Created by Emre Esim
