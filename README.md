@@ -31,6 +31,11 @@ A health utility tool that calculates Body Mass Index based on weight and height
 
 - **Command:** `cargo run --bin bmi_calc`
 
+### 6. Tic Tac Toe ❌
+A classic command-line version of the popular strategy game where two players compete on a 3x3 grid to align three marks.
+
+- **Command:** `cargo run --bin tic_tac_toe`
+
 ## How to Run
 
 1. Clone the repository.
