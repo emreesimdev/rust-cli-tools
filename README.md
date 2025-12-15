@@ -36,6 +36,21 @@ A classic command-line version of the popular strategy game where two players co
 
 - **Command:** `cargo run --bin tic_tac_toe`
 
+## Hangman (CLI)
+
+This project is a work-in-progress Hangman game written in Rust.
+
+### Current state
+- Random word selection
+- Letter-by-letter guessing logic (draft)
+- CLI input handling
+
+### Planned
+- Win/lose conditions
+- Guess tracking
+- Cleaner output formatting
+
+
 ## How to Run
 
 1. Clone the repository.

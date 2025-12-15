@@ -7,4 +7,5 @@ fn main() {
     println!("4. Russian Roulette (Run: cargo run --bin russian_roulette)");
     println!("5. BMI Calculator (Run: cargo run --bin bmi_calc)");
     println!("6. Tic Tac Toe (Run: cargo run --bin tic_tac_toe)");
+    println!("7. Hangman (Run: cargo run --bin hangman");
 }
