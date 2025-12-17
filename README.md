@@ -61,6 +61,15 @@ Built to practice vector usage, indexing, and basic game state management.
 
 ---
 
+### Hangman 🔤
+Simple CLI Hangman game built while learning Rust fundamentals.
+Focused on vectors, chars, loops, input handling and basic game logic.
+
+- Binary: `hangman`
+- Run with: `cargo run --bin hangman`
+
+---
+
 ## How to Run
 
 Clone the repository, then run any tool using Cargo:
